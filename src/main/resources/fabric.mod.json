@@ -4,12 +4,12 @@
   "version": "${version}",
   "name": "SpoutingFix",
   "description": "Fixes an issue with Create's REI Spouting implementation that errors with multiple fluid steps.",
-  "authors": [],
+  "authors": ["Erdragh"],
   "contact": {
     "repo": "https://github.com/erdragh/SpoutingFix"
   },
   "license": "MIT",
-  "icon": "assets/spoutingfix/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
