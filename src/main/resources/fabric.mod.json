@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "spoutingfix",
+  "version": "${version}",
+  "name": "SpoutingFix",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/erdragh/SpoutingFix"
+  },
+  "license": "MIT",
+  "icon": "assets/spoutingfix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "spoutingfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

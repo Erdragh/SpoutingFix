@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.erdragh.erdragh.spoutingfix",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "AssemblySpoutingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
