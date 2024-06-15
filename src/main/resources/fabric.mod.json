@@ -3,7 +3,7 @@
   "id": "spoutingfix",
   "version": "${version}",
   "name": "SpoutingFix",
-  "description": "",
+  "description": "Fixes an issue with Create's REI Spouting implementation that errors with multiple fluid steps.",
   "authors": [],
   "contact": {
     "repo": "https://github.com/erdragh/SpoutingFix"
@@ -21,8 +21,7 @@
     "spoutingfix.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "fabricloader": "*",
+    "create": "<=0.5.1-f-build.1415"
   }
 }
